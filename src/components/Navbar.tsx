@@ -13,7 +13,7 @@ function Navbar() {
           <Button name="Get Started" className="text-sm" />
         </li>
         <li>
-          <RxHamburgerMenu bg-white className="cursor-pointer" />
+          <RxHamburgerMenu className="cursor-pointer" />
         </li>
       </ul>
     </nav>

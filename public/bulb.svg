@@ -1,0 +1,25 @@
+<svg width="60" height="59" viewBox="0 0 60 59" fill="none" xmlns="http://www.w3.org/2000/svg" id="svg-2000611226_2145">
+<g clip-path="url(#svg-2000611226_2145_clip0_2594_38485)">
+<circle cx="26.5565" cy="48.0678" r="6.33553" transform="rotate(9.97417 26.5565 48.0678)" fill="url(#svg-2000611226_2145_paint0_radial_2594_38485)"></circle>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M36.8827 39.6791C37.9911 37.4728 39.8815 35.7958 41.8158 34.2614C44.9413 31.7823 47.2059 28.193 47.9512 23.955C49.5673 14.7653 43.4277 6.00547 34.238 4.38935C25.0483 2.77323 16.2885 8.91282 14.6724 18.1025C13.9271 22.3405 14.8312 26.487 16.9233 29.8837C18.2181 31.9859 19.4229 34.2073 19.712 36.6593L19.9407 38.5986C20.381 42.3331 23.2189 45.3365 26.9224 45.9879C30.6259 46.6392 34.3182 44.7841 36.0062 41.4239L36.8827 39.6791Z" fill="url(#svg-2000611226_2145_paint1_radial_2594_38485)"></path>
+<path d="M18.6007 39.2968C18.6323 38.6624 19.2127 38.1993 19.8382 38.3093L36.2014 41.187C36.827 41.297 37.2145 41.9303 37.0278 42.5374L35.1505 48.64C34.9939 49.149 34.4828 49.4617 33.9583 49.3695L19.1551 46.7662C18.6306 46.6739 18.2569 46.2056 18.2833 45.6737L18.6007 39.2968Z" fill="url(#svg-2000611226_2145_paint2_radial_2594_38485)"></path>
+</g>
+<defs>
+<radialGradient id="svg-2000611226_2145_paint0_radial_2594_38485" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.5565 50.1796) rotate(90) scale(4.22369)">
+<stop stop-color="#6A6179"></stop>
+<stop offset="1" stop-color="#372A4B"></stop>
+</radialGradient>
+<radialGradient id="svg-2000611226_2145_paint1_radial_2594_38485" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(31.3118 21.0287) rotate(99.9742) scale(28.2219 28.2219)">
+<stop offset="0.0732287" stop-color="#FFFCF2"></stop>
+<stop offset="0.519967" stop-color="#FFDD72"></stop>
+<stop offset="0.745737" stop-color="#EDA30C"></stop>
+</radialGradient>
+<radialGradient id="svg-2000611226_2145_paint2_radial_2594_38485" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(27.2883 43.908) rotate(99.9742) scale(4.22369 9.5033)">
+<stop stop-color="#DFD6DB"></stop>
+<stop offset="1" stop-color="#796896"></stop>
+</radialGradient>
+<clipPath id="svg-2000611226_2145_clip0_2594_38485">
+<rect width="50.6843" height="50.6843" fill="white" transform="translate(9.27881) rotate(9.97417)"></rect>
+</clipPath>
+</defs>
+</svg>
