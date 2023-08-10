@@ -16,6 +16,14 @@ module.exports = {
       animation: {
         slide: "slide 2s linear infinite",
       },
+      backgroundImage: (theme) => ({
+        "text-y-gradient": `linear-gradient(to right,${theme(
+          "colors.yellow.500"
+        )},${theme("colors.pink.500")})`,
+        "text-b-gradient": `linear-gradient(to right,${theme(
+          "colors.blue.500"
+        )},${theme("colors.purple.500")})`,
+      }),
     },
   },
   plugins: [],
