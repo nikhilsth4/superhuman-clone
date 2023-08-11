@@ -2,7 +2,7 @@ import React from "react";
 
 type GradientTextProps = {
   children: React.ReactNode;
-  color?: string;
+  color?: "bg-text-y-gradient" | "bg-text-b-gradient";
   className?: string;
 };
 
