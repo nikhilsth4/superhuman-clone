@@ -7,12 +7,12 @@ import lightHouse from "../../public/light-house.png";
 
 const Hero = () => {
   return (
-    <div className="pt-20 text-center bg-gradient-to-b from-black to-indigo-500">
+    <div className="pt-20 text-center">
       <Container>
         <h1 className="text-center text-3xl font-semibold my-8 leading-relaxed">
-          The Fastest Email Experience Ever Made
+          The Fastest Email <br /> Experience Ever Made
         </h1>
-        <p className="text-lg leading-loose font-medium pt-8 pb-10">
+        <p className="text-lg leading-loose font-medium mt-4 pb-10">
           Blazingly fast, delightful and stress free. <br /> Get 3 hours back
           every single week
         </p>
