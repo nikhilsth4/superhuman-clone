@@ -14,7 +14,7 @@ module.exports = {
         },
       },
       animation: {
-        slide: "slide 2s linear infinite",
+        slide: "slide 20s linear infinite",
       },
       backgroundImage: (theme) => ({
         "text-y-gradient": `linear-gradient(to right,${theme(

@@ -7,13 +7,20 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <div className="bg-slate-900">
+    <>
       <Navbar />
-      <Hero />
-      <Companies />
-      <About />
-      <Introduction />
-      <Footer />
-    </div>
+      <div className="bg-slate-900">
+        <Hero />
+        <div className="bg-gradient-to-b from-purple-950 to-slate-900">
+          <Companies />
+        </div>
+        <div className="flex flex-col gap-36">
+          <About />
+
+          <Introduction />
+          <Footer />
+        </div>
+      </div>
+    </>
   );
 }

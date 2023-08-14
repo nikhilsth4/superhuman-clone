@@ -4,7 +4,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center p-6">
+    <nav className="flex justify-between items-center p-6 bg-black">
       <Link href="/">
         <h1 className="font-thin text-xs tracking-[4px]">SUPERHUMAN</h1>
       </Link>

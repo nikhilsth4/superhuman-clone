@@ -1,8 +1,8 @@
 import GradientText from "./GradientText";
 
-const ScrollText = () => {
+const ScrollText = ({ className }: { className?: string }) => {
   return (
-    <div>
+    <div className={className}>
       <h3 className="text-[26px] font-medium">
         Fly through your email <br />
         <GradientText color="bg-text-b-gradient">twice as fast </GradientText>

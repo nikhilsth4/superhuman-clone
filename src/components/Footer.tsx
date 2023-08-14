@@ -9,7 +9,13 @@ import linkedIn from "../../public/linkedin.svg";
 import tiktok from "../../public/tiktok-logo.svg";
 import youtube from "../../public/youtube-logo.svg";
 
-const FooterContent = ({ heading, links }) => {
+const FooterContent = ({
+  heading,
+  links,
+}: {
+  heading: string;
+  links: string[];
+}) => {
   return (
     <div>
       <h3 className="font-medium">{heading}</h3>
@@ -31,13 +37,13 @@ const FooterContent = ({ heading, links }) => {
 const Footer = () => {
   return (
     <Container>
-      <div className="flex flex-col gap-24">
+      <div className="flex flex-col md:flex-row gap-24 mt-16 md:gap-8 md:justify-between ">
         <HeadingText>
           The Fastest <br />
           Email Experience <br />
           Ever Made
         </HeadingText>
-        <div className="grid grid-cols-2 gap-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-16 md:gap-12">
           <FooterContent
             heading="Company"
             links={["Blog", "Careers", "Love"]}
@@ -56,7 +62,7 @@ const Footer = () => {
 
       <hr className="my-20" />
       <Image src={sLogo} alt="Logo" className="mt-10" />
-      <div className="flex gap-12 mb-8">
+      <div className="flex gap-12 pb-8">
         <Image
           src={twitter}
           alt="Logo"

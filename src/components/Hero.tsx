@@ -7,16 +7,19 @@ import lightHouse from "../../public/light-house.png";
 
 const Hero = () => {
   return (
-    <div className="pt-20 text-center">
+    <div className="pt-20 text-center bg-gradient-to-b from-black to-purple-900 md:bg-gradient-to-bl md:from-50%">
       <Container>
-        <h1 className="text-center text-3xl font-semibold my-8 leading-relaxed">
+        <h1 className="text-center text-3xl font-semibold my-8 leading-relaxed md:text-5xl md:font-medium">
           The Fastest Email <br /> Experience Ever Made
         </h1>
-        <p className="text-lg leading-loose font-medium mt-4 pb-10">
+        <p className="text-lg leading-loose font-medium mt-4 pb-10 md:text-xl md:pt-10 md:pb-16">
           Blazingly fast, delightful and stress free. <br /> Get 3 hours back
           every single week
         </p>
-        <Button name="Get Started" className="py-2.5 mb-20 max-w-sm" />
+        <Button
+          name="Get Started"
+          className="py-2.5 mb-20 max-w-sm md:mb-30 md:py-4 md:text-md md:max-w-[136px]"
+        />
 
         <div className="relative m-auto max-w-[26rem]">
           <Image
