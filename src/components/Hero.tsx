@@ -21,19 +21,16 @@ const Hero = () => {
           className="py-2.5 mb-20 max-w-sm md:mb-30 md:py-4 md:text-md md:max-w-[136px] lg:max-w-[290px] lg:py-6 lg:text-xl"
         />
 
-        <div className="relative m-auto max-w-[26rem]">
+        <div className="relative m-auto max-w-[26rem] md:hidden">
           <Image
             src={wolfMobile}
-            width={380}
-            height={22}
             alt="pic"
-            className="m-auto relative right-5 mw-100"
+            className="m-auto w-[380px] relative right-5 md:w-[500px] lg:w-[700px] xl:w-[900px]"
           />
           <Image
-            className="absolute bottom-0 right-0 mw-100"
+            className="absolute w-24 bottom-0 right-0 "
             src={lightHouse}
-            width={100}
-            height={22}
+            
             alt="pic"
           />
         </div>

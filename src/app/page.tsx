@@ -14,7 +14,7 @@ export default function Home() {
         <div className="bg-gradient-to-b from-purple-950 to-slate-900">
           <Companies />
         </div>
-        <div className="flex flex-col gap-36">
+        <div className="flex flex-col md:gap-36">
           <About />
 
           <Introduction />
