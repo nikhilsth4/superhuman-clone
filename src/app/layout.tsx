@@ -5,8 +5,8 @@ import { DM_Sans } from "next/font/google";
 const dmSans = DM_Sans({ weight: ["400", "500", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Zania ai",
-  description: "Zania ai",
+  title: "superhuman",
+  description: "superhuman",
 };
 
 export default function RootLayout({
@@ -16,7 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${dmSans.className} bg-black text-white`}>{children}</body>
+      <body className={`${dmSans.className} bg-black text-white`}>
+        {children}
+      </body>
     </html>
   );
 }

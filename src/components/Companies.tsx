@@ -18,7 +18,7 @@ const DisplayCompanies = () => {
             key={index}
             src={company}
             alt="company"
-            className="w-auto h-50 mx-10 md:w-full"
+            className="w-auto h-50 mx-10 md:w-full lg:h-10"
           />
         );
       })}
@@ -28,8 +28,8 @@ const DisplayCompanies = () => {
 
 function Companies() {
   return (
-    <div className="pb-20 pt-14 overflow-hidden whitespace-nowrap relative ">
-      <div className="animate-slide flex">
+    <div className="pb-20 pt-14 overflow-hidden whitespace-nowrap  relative lg:pb-40">
+      <div className="animate-slide flex lg:gap-12">
         <DisplayCompanies />
         <DisplayCompanies />
       </div>

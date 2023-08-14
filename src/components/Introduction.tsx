@@ -14,7 +14,7 @@ const IntroductionBody = ({ content }: { content: String[] }) => {
     content.map((con, index) => (
       <p
         key={index}
-        className="font-medium mt-4 text-sm text-[#ffffffcc] leading-5 md:text-lg md:leading-7"
+        className="font-medium mt-4 text-sm text-[#ffffffcc] leading-5 md:text-lg md:leading-7 "
       >
         {con}
       </p>
@@ -24,7 +24,7 @@ const IntroductionBody = ({ content }: { content: String[] }) => {
 
 const Introduction = () => {
   return (
-    <div className="md:max-w-4xl m-auto">
+    <div className="md:max-w-4xl m-auto lg:max-w-6xl">
       <Container className="mt-12 md:flex md:gap-8 md:justify-center ">
         <div>
           <HeadingText>
@@ -34,7 +34,7 @@ const Introduction = () => {
               Superhuman AI
             </GradientText>
           </HeadingText>
-          <p className="font-medium text-lg mt-4 mb-6 md:mt-8 md:mb-10 md:text-xl">
+          <p className="font-medium text-lg mt-4 mb-6 md:mt-8 md:mb-10 md:text-xl lg:text-2xl">
             Write entire emails with just one line
           </p>
           <IntroductionBody
@@ -46,7 +46,7 @@ const Introduction = () => {
           />
           <Link href="#" className="flex gap-2 mt-4 md:mt-6">
             <GradientText
-              className="font-normal text-lg"
+              className="font-normal text-lg lg:text-xl"
               color="bg-text-b-gradient"
             >
               See More
@@ -57,15 +57,15 @@ const Introduction = () => {
 
         <Image src={aiImage} alt="ai" className="mt-10" />
       </Container>
-      <Container className="mt-12 md:flex md:mt-20 md:gap-8">
+      <Container className="mt-12 md:flex md:mt-20 md:gap-8 lg:mt-[8rem]">
         <div>
           <HeadingText>
-            <GradientText color="bg-text-b-gradient">
+            <GradientText>
               Respond faster{" "}
             </GradientText>
             to what matters most
           </HeadingText>
-          <p className="font-medium text-lg mt-4 mb-6">
+          <p className="font-medium text-lg mt-4 mb-6 md:mt-8 md:mb-10 md:text-xl lg:text-2xl">
             Automatically triage incoming email
           </p>
           <IntroductionBody
