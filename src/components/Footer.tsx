@@ -36,8 +36,8 @@ const FooterContent = ({
 
 const Footer = () => {
   return (
-    <Container>
-      <div className="flex flex-col md:flex-row gap-24 mt-16 md:gap-8 md:justify-between lg:w-100">
+    <Container className="lg:w-full lg:max-w-[90%]">
+      <div className="flex flex-col md:flex-row gap-24 mt-16 md:gap-8 md:justify-between ">
         <HeadingText>
           The Fastest <br />
           Email Experience <br />

@@ -26,7 +26,7 @@ const Introduction = () => {
   return (
     <div className="md:max-w-4xl m-auto lg:max-w-6xl">
       <Container className="mt-12 md:flex md:gap-8 md:justify-center ">
-        <div>
+        <div className="md:basis-1/2">
           <HeadingText>
             Introducing
             <GradientText color="bg-text-b-gradient">
@@ -51,17 +51,21 @@ const Introduction = () => {
             >
               See More
             </GradientText>
-            <Image alt="arrow" src={arrowPink} className="w-3 " />
+            <Image alt="arrow" src={arrowPink} className="w-3" />
           </Link>
         </div>
 
-        <Image src={aiImage} alt="ai" className="mt-10" />
+        <Image
+          src={aiImage}
+          alt="ai"
+          className="mt-10 lg:basis-1/2 md:max-w-[540px]"
+        />
       </Container>
-      <Container className="mt-12 md:flex md:mt-20 md:gap-8 lg:mt-[8rem]">
-        <div>
+      <Container className="mt-12 md:flex md:mt-20 md:gap-9 lg:mt-[8rem]">
+        <div className="md:basis-1/2">
           <HeadingText>
             <GradientText>
-              Respond faster{" "}
+              Respond faster <br />{" "}
             </GradientText>
             to what matters most
           </HeadingText>
@@ -76,7 +80,11 @@ const Introduction = () => {
           />
         </div>
 
-        <Image src={impImage} alt="important" className="mt-10" />
+        <Image
+          src={impImage}
+          alt="important"
+          className="mt-10 md:max-w-[540px]"
+        />
       </Container>
     </div>
   );
